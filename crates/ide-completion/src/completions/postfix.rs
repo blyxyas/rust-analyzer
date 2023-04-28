@@ -357,6 +357,7 @@ fn main() {
                 sn dbg    dbg!(expr)
                 sn dbgr   dbg!(&expr)
                 sn if     if expr {}
+                sn ignore let _ = expr;
                 sn let    let
                 sn letm   let mut
                 sn match  match expr {}
@@ -388,6 +389,7 @@ fn main() {
                 sn dbg    dbg!(expr)
                 sn dbgr   dbg!(&expr)
                 sn if     if expr {}
+                sn ignore let _ = expr;
                 sn match  match expr {}
                 sn not    !expr
                 sn ref    &expr
@@ -412,6 +414,7 @@ fn main() {
                 sn call   function(expr)
                 sn dbg    dbg!(expr)
                 sn dbgr   dbg!(&expr)
+                sn ignore let _ = expr;
                 sn let    let
                 sn letm   let mut
                 sn match  match expr {}
@@ -437,6 +440,7 @@ fn main() {
                 sn dbg    dbg!(expr)
                 sn dbgr   dbg!(&expr)
                 sn if     if expr {}
+                sn ignore let _ = expr;
                 sn let    let
                 sn letm   let mut
                 sn match  match expr {}
